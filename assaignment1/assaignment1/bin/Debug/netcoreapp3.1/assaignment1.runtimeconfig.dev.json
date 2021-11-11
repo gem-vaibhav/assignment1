@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\va.sharma\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\va.sharma\\.nuget\\packages"
+    ]
+  }
+}

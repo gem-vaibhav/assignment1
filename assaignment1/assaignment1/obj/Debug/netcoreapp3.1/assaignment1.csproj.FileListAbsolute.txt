@@ -1,0 +1,14 @@
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\bin\Debug\netcoreapp3.1\assaignment1.exe
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\bin\Debug\netcoreapp3.1\assaignment1.deps.json
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\bin\Debug\netcoreapp3.1\assaignment1.runtimeconfig.json
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\bin\Debug\netcoreapp3.1\assaignment1.runtimeconfig.dev.json
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\bin\Debug\netcoreapp3.1\assaignment1.dll
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\bin\Debug\netcoreapp3.1\assaignment1.pdb
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\obj\Debug\netcoreapp3.1\assaignment1.csproj.AssemblyReference.cache
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\obj\Debug\netcoreapp3.1\assaignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\obj\Debug\netcoreapp3.1\assaignment1.AssemblyInfoInputs.cache
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\obj\Debug\netcoreapp3.1\assaignment1.AssemblyInfo.cs
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\obj\Debug\netcoreapp3.1\assaignment1.csproj.CoreCompileInputs.cache
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\obj\Debug\netcoreapp3.1\assaignment1.dll
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\obj\Debug\netcoreapp3.1\assaignment1.pdb
+C:\Users\va.sharma\source\repos\assaignment1\assaignment1\obj\Debug\netcoreapp3.1\assaignment1.genruntimeconfig.cache
