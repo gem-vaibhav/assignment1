@@ -1,0 +1,56 @@
+﻿@model assaignment.Models.RegisterationRecord
+@{
+    ViewBag.Title = "Registration";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+</head>
+<body>
+    <h1 style="margin:5% 25% auto 45%">Register Here</h1>
+    
+    @using (Html.BeginForm("RegisterView","Home",FormMethod.Post, new { @class = "row g-3" }))
+    {
+        <div class="col-md-6">
+            @Html.LabelFor(model => model.First_Name, new { @class = "form-label" })
+
+            @Html.EditorFor(model => model.First_Name,new { @htmlAttributes =new { @class = "form-control", @data_val = "true", @required = "required"}})
+
+        </div>
+        @Html.ValidationMessageFor(model => model.First_Name, "", new { @class = "alert-danger" })
+        <div class="col-md-6">
+            @Html.LabelFor(model => model.Last_Name,  new { @class = "form-label" })
+
+            @Html.EditorFor(model => model.Last_Name,new { @htmlAttributes = new { @class = "form-control", @data_val = "true", @required = "required" }})
+
+        </div>
+        @Html.ValidationMessageFor(model => model.Last_Name, "", new { @class = "alert-danger" })
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.DateOfBirth, new { @class = "form-label" })
+            @Html.EditorFor(model => model.DateOfBirth,new { @class = "form-control", @type = "datetime", @required = "required", @data_val = "true" })
+
+        </div>
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.UserGender, new { @htmlAttributes = new { @class = "form-label" } })
+            @Html.DropDownListFor(model => model.UserGender, new SelectList(Enum.GetValues(typeof(Gender))), "select Gender", new { @class = "form-control" })
+
+        </div>
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.Email_address, new { @htmlAttributes = new { @class = "form-label" } })
+            @Html.EditorFor(model => model.Email_address, new { @htmlAttributes = new { @class = "form-control", @type = "email", @data_val = "true", @required = "required" } })
+
+        </div>
+        
+        <div class="col-12">
+
+            <input type="submit" value="sumbit" class="btn-primary" >
+        </div>
+    }
+
+</body>
+</html>
